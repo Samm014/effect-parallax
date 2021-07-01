@@ -64,3 +64,17 @@ section img{
 #road{
     z-index: 2;
 }
+
+@media (max-width: 500px) {
+  #text{
+    font-size: 3.8em;
+    margin-bottom: 200px;
+  }
+  section{
+    height: 80vh;
+  }
+  img#moon{
+    height: auto;
+    width: 400px;
+  }
+}
